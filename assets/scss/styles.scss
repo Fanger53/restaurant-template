@@ -1,0 +1,35 @@
+@import "fonts";
+
+.f-family {
+  font-family: 'Conv_Plane Crash', sans-serif;
+}
+
+.gris{
+  background:transparent;
+}
+.top-nav-collapse{
+  background: rgba(0, 0, 0, 0.904);
+}
+
+.bg-img {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+// Header
+
+.header-img {
+  width: 100vw;
+  height: 35rem;
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%),url(../img/header-img.png);
+}
+
+.title {
+  position: absolute;
+  top: 100px;
+  left: 30px;
+  font-size: 3rem;
+  color: antiquewhite;
+
+}
