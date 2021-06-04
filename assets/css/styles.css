@@ -26,15 +26,83 @@
 }
 
 .header-img {
-  width: 100vw;
+  width: 100%;
   height: 35rem;
   background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(../img/header-img.png);
 }
 
 .title {
-  position: absolute;
-  top: 100px;
-  left: 30px;
+  margin-top: auto;
+  justify-content: center;
+  align-items: center;
   font-size: 3rem;
   color: antiquewhite;
+  height: 100%;
+}
+
+.text-h {
+  font-size: 1.5rem;
+  background-image: url(../img/natural-wooden-background.jpg);
+}
+
+.n {
+  width: 100%;
+}
+
+.img-people {
+  width: 100%;
+  background-image: url(../img/people.jpg);
+}
+
+.font-size {
+  font-size: 2rem;
+  align-items: center;
+  display: flex;
+  font-weight: 700;
+}
+
+.food {
+  margin: 15px auto;
+  border-radius: 5px;
+  border: 1px solid #eee4d379;
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(27, 27, 27, 0.9) 84.03%);
+  overflow: hidden;
+  box-shadow: 5px -5px 5px -3px #3f3c39;
+}
+
+.img-food {
+  transform-origin: 100% 15%;
+  transform: rotate(10deg);
+  height: 200px;
+  border-radius: 0 0 80px 0;
+}
+
+.img-menu-1 {
+  background-image: url(../img/hambuerguesa2.png);
+}
+
+.img-menu-2 {
+  background-image: url(../img/crepe.png);
+}
+
+.img-menu-3 {
+  background-image: url(../img/mazorcada.png);
+}
+
+.img-menu-4 {
+  background-image: url(../img/mexican-2456038_1280.jpg);
+}
+
+.img-menu-5 {
+  background-image: url(../img/side-view-fried-meat-with-french-fries-and-ketchup.jpg);
+}
+
+.img-menu-6 {
+  background-image: url(../img/helado.jpg);
+}
+
+.text-menu {
+  color: antiquewhite;
+  font-weight: 600;
+  font-size: 1.5rem;
 }/*# sourceMappingURL=styles.css.map */
