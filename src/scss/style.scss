@@ -71,10 +71,10 @@
 }
 
 .img-food {
-  transform-origin: 100% 15%;
-  transform: rotate(10deg);
-  height: 200px;
-  border-radius: 0 0 80px 0;
+  // transform-origin: 100% 15%;
+  // transform: rotate(2deg);
+  height: 250px;
+  border-radius: 0 0 80px 80px;
 }
 
 .img-menu-1 {
@@ -99,6 +99,10 @@
 
 .img-menu-6 {
   background-image: url(../../dist/img/helado.jpg);
+}
+
+.img-menu-7 {
+  background-image: url(../../dist/img/bebidas.png);
 }
 
 .text-menu {
