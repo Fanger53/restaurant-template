@@ -5,7 +5,7 @@
 }
 
 .gris{
-  background:transparent;
+  background: rgb(39, 69, 95);
 }
 .top-nav-collapse {
   background: rgba(0, 0, 0, 0.904);
@@ -16,6 +16,8 @@
   background-size: cover !important;
   background-position: center !important;
 }
+
+
 
 // Header
 
@@ -61,13 +63,17 @@
 
 // Section Menu
 
+.menu {
+  background-color: rgb(194, 203, 211);
+}
+
 .food {
   margin: 15px auto;
   border-radius: 5px;
   border: 1px solid #eee4d379;
   background: linear-gradient(179.4deg, rgb(255, 255, 255), rgb(24, 21, 21));
   overflow: hidden;
-  box-shadow: 5px -5px 5px -3px rgb(156, 126, 88);
+  box-shadow: 5px -5px 5px -3px rgb(20, 13, 4);
 }
 
 .img-food {
